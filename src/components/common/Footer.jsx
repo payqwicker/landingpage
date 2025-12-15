@@ -74,6 +74,9 @@ const Footer = () => {
                 <Link href="/about" className="cursor-pointer">
                   About Us
                 </Link>
+                <Link href="/privacy-policy" className="cursor-pointer">
+                  Privacy Policy
+                </Link>
               </ul>
             </div>
 
@@ -81,10 +84,10 @@ const Footer = () => {
               <Link
                 href={"https://www.facebook.com/profile.php?id=61559648152846"}
               >
-                <FaFacebook />
+                <FaFacebook className="" />
               </Link>
               <Link href={"https://www.instagram.com/payqwicker"}>
-                <FaInstagram />
+                <FaInstagram className="text-[#ABB0BA]" />
               </Link>
               <Link href={"https://x.com/payqwicker"}>
                 <FaXTwitter />

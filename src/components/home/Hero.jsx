@@ -9,7 +9,7 @@ const Hero = () => {
 const router = useRouter()
 
   const navigate = () => {
-    router.push("https://payqwicker-web-app.vercel.app/");
+    router.push("https://app.payqwicker.com/");
   }
 
 

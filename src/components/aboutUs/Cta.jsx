@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 
@@ -21,10 +22,11 @@ const Cta = () => {
           join thousands of users who are already simplifying their finances
           with PayQwicker.
         </p>
-
-        <button className="px-[16px] py-[8px] bg-primary text-white font-semibold rounded-full ">
-          Get Started - its free
-        </button>
+        <Link href={"https://app.payqwicker.com/"}>
+          <button className="px-[16px] py-[8px] bg-primary text-white font-semibold rounded-full ">
+            Get Started - its free
+          </button>
+        </Link>
       </div>
     </div>
   );
