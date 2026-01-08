@@ -77,6 +77,9 @@ const Footer = () => {
                 <Link href="/privacy-policy" className="cursor-pointer">
                   Privacy Policy
                 </Link>
+                <Link href="/career" className="cursor-pointer">
+                Career
+                </Link>
               </ul>
             </div>
 

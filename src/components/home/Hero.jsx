@@ -35,7 +35,7 @@ const router = useRouter()
               Send, Recieve & Manage Money Effortlessly
             </h1>
             <p className="w-full px-5 md:px-28 lg:px-0 lg:w-[640px] text-base md:text-[20px] font-normal text-white leading-[26px] md:leading-[30px] ">
-              Fast, secure, and seamless financial transactions—no delays, no{" "}
+              Fast, secure, and seamless financial transactions no delays, no{" "}
               hidden fees.
             </p>
 
